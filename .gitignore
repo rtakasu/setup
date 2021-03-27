@@ -1,9 +1,14 @@
 *
 !.gitignore
-!.setup_scripts
 !.zshrc
 !.gitconfig
 !.ignore
 !.psqlrc
 !.tmux.conf
-!init.vim
+
+!.config
+!.config/nvim
+!/.config/nvim/init.vim
+
+!.setup_scripts
+!/.setup_scripts/**
