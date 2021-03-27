@@ -10,6 +10,7 @@
 !.config/nvim
 !/.config/nvim/init.vim
 !/.config/nvim/vim-tmux-navigator-config.vim
+!/.config/nvim/coc-config.vim
 !/.config/nvim/coc-settings.json
 !.config/nvim/colors
 !.config/nvim/colors/**
