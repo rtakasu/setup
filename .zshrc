@@ -99,6 +99,7 @@ alias vim="nvim"
 alias c="clear"
 alias sl="ls"
 alias reload="source ~/.zshrc"
+alias tr="tmux source-file ~/.tmux.conf"
 
 ## Setup ssh-agent
 eval `ssh-agent -s`
