@@ -6,6 +6,9 @@ call plug#end()
 source $HOME/.config/nvim/coc-config.vim
 source $HOME/.config/nvim/vim-tmux-navigator-config.vim
 
+" Install Coc extensions
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-rust-analyzer']
+
 " Use system clipboard as register
 set clipboard=unnamedplus
 

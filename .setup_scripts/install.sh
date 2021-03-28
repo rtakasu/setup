@@ -6,6 +6,7 @@ apt-get install tig \
 	silversearcher-ag \
 	jq \
 	tree \
+	libpq-dev \ # needed for postgresql
 	node \ # Install node for use with CoC
 	curl -y
 

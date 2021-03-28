@@ -101,6 +101,9 @@ alias sl="ls"
 alias reload="source ~/.zshrc"
 alias tr="tmux source-file ~/.tmux.conf"
 
+## PATH extensions
+export PATH=$PATH:/user/bin/pg_config
+
 ## Setup ssh-agent
 eval `ssh-agent -s`
 ssh-add
