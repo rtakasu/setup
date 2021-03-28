@@ -7,13 +7,23 @@ source $HOME/.config/nvim/coc-config.vim
 source $HOME/.config/nvim/vim-tmux-navigator-config.vim
 
 " Install Coc extensions
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-rust-analyzer']
+let g:coc_global_extensions = [
+	\ 'coc-json', 
+	\ 'coc-git', 
+	\ 'coc-rust-analyzer', 
+	\ 'coc-toml', 
+	\ 'coc-highlight',
+	\ 'coc-lists'
+	\ ]
 
 " Use system clipboard as register
 set clipboard=unnamedplus
 
 " Remaps
 nnoremap ; :
+
+" Show line numbers
+set number
 
 " Setup molokai color scheme
 syntax on
