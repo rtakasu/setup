@@ -13,7 +13,9 @@ let g:coc_global_extensions = [
 	\ 'coc-rust-analyzer', 
 	\ 'coc-toml', 
 	\ 'coc-highlight',
-	\ 'coc-lists'
+	\ 'coc-lists',
+	\ 'coc-graphql',
+	\ 'coc-prettier'
 	\ ]
 
 " Use system clipboard as register
