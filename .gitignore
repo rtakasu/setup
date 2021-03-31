@@ -5,6 +5,7 @@
 !.ignore
 !.psqlrc
 !.tmux.conf
+!.prettierrc
 
 !.config
 !.config/nvim
