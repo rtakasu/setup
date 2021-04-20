@@ -1,6 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 source $HOME/.config/nvim/coc-config.vim
