@@ -24,6 +24,9 @@ set clipboard=unnamedplus
 " Remaps
 nnoremap ; :
 
+" Jump to definition
+nmap <silent> \d <Plug>(coc-definition)
+
 " Show line numbers
 set number
 
