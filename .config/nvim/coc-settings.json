@@ -1,4 +1,0 @@
-{
-  "coc.preferences.formatOnSaveFiletypes": ["rust", "css", "graphql", "json"],
-  "rust-analyzer.inlayHints.enable": false
-}
