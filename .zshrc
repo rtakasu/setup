@@ -100,6 +100,7 @@ alias c="clear"
 alias sl="ls"
 alias reload="source ~/.zshrc"
 alias tr="tmux source-file ~/.tmux.conf"
+alias co="code"
 
 ## PATH extensions
 export PATH=$PATH:/user/bin/pg_config
