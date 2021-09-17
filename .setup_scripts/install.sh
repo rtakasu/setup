@@ -8,6 +8,7 @@ sudo apt-get install tig \
 	silversearcher-ag \
 	jq \
 	tree \
+	fzf \
 	curl -y
 
 # Install vimplug
